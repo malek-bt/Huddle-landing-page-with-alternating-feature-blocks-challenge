@@ -13,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon-32x32.png" />
       </Head>
       <header className={styles.header}>
-        <img src="/logo.svg"></img>
+        <img src="/logo.svg" alt="logo"></img>
         <button>Try It Free</button>
       </header>
       <main className={styles.main}>
@@ -28,12 +28,12 @@ export default function Home() {
             <button>Get Started For Free</button>
           </div>
 
-          <img src="/illustration-mockups.svg"></img>
+          <img src="/illustration-mockups.svg" className="mockups illustration"></img>
         </section>
 
         <section className={styles.cards}>
           <div className={styles.card}>
-            <img src="/illustration-grow-together.svg"></img>
+            <img src="/illustration-grow-together.svg" className="grow together illustration"></img>
             <div>
               <h2>Grow Together</h2>
               <p>
@@ -45,7 +45,7 @@ export default function Home() {
           </div>
 
           <div className={styles.card}>
-            <img src="/illustration-flowing-conversation.svg"></img>
+            <img src="/illustration-flowing-conversation.svg" className="flowing conversation illustration"></img>
             <div>
               <h2>Flowing Conversations</h2>
               <p>
@@ -57,7 +57,7 @@ export default function Home() {
           </div>
 
           <div className={styles.card}>
-            <img src="/illustration-your-users.svg"></img>
+            <img src="/illustration-your-users.svg" className="users illustration"></img>
             <div>
               <h2>Your Users</h2>
               <p>
@@ -76,12 +76,12 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-      <img src="/logo-white.svg" className={styles.logo}></img>
+      <img src="/logo-white.svg" className={styles.logo} alt="logo"></img>
         <div className={styles.footer_div}>
           <div>
             
             <div className={styles.address}>
-              <img src="/icon-location.svg"></img>
+              <img src="/icon-location.svg" alt="location icon"></img>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua
@@ -89,12 +89,12 @@ export default function Home() {
             </div>
 
             <div className={styles.address}>
-              <img src="/icon-phone.svg"></img>
+              <img src="/icon-phone.svg" alt="phone icon"></img>
               <p>+1-543-123-4567</p>
             </div>
 
             <div className={styles.address}>
-              <img src="/icon-email.svg"></img>
+              <img src="/icon-email.svg" alt="email icon"></img>
               <p>example@huddle.com</p>
             </div>
           </div>
@@ -110,9 +110,9 @@ export default function Home() {
           </div>
 
           <div className={styles.social_media}>
-            <img src="/facebook.svg"></img>
-            <img src="/twitter.svg"></img>
-            <img src="/instagram.svg"></img>
+            <img src="/facebook.svg" alt="facebook icon"></img>
+            <img src="/twitter.svg" alt="twitter icon"></img>
+            <img src="/instagram.svg" alt="instagram icon"></img>
           </div>
           </div>
         <p className={styles.copyright}>
