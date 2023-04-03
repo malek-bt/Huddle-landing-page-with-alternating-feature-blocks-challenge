@@ -28,12 +28,12 @@ export default function Home() {
             <button>Get Started For Free</button>
           </div>
 
-          <img src="/illustration-mockups.svg" className="mockups illustration"></img>
+          <img src="/illustration-mockups.svg" alt="mockups illustration"></img>
         </section>
 
         <section className={styles.cards}>
           <div className={styles.card}>
-            <img src="/illustration-grow-together.svg" className="grow together illustration"></img>
+            <img src="/illustration-grow-together.svg" alt="grow together illustration"></img>
             <div>
               <h2>Grow Together</h2>
               <p>
@@ -45,7 +45,7 @@ export default function Home() {
           </div>
 
           <div className={styles.card}>
-            <img src="/illustration-flowing-conversation.svg" className="flowing conversation illustration"></img>
+            <img src="/illustration-flowing-conversation.svg" alt="flowing conversation illustration"></img>
             <div>
               <h2>Flowing Conversations</h2>
               <p>
@@ -57,7 +57,7 @@ export default function Home() {
           </div>
 
           <div className={styles.card}>
-            <img src="/illustration-your-users.svg" className="users illustration"></img>
+            <img src="/illustration-your-users.svg" alt="users illustration"></img>
             <div>
               <h2>Your Users</h2>
               <p>
